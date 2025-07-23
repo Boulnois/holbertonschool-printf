@@ -1,22 +1,22 @@
 
-# Project Title
+# 🖨️ Project Title
 
 Holberton custom `_printf` function in C
 
-# Description
+# ✨ Description
 
 _printf is a custom implementation of the standard C printf function.
 It handles formatted output to the standard output using only low-level system calls like write().
 This project demonstrates a deep understanding of variadic functions, string parsing, and number-to-string conversions in C.
 
-# Compilation
+# 🛠️ Compilation
 
 The code have been compiled with the command 
 ```c
 $ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 -Wno-format *.c
 ```
 
-# Requirements
+# 📋 Requirements
 
 This project was under certain requirements that are describe bellow
 
@@ -26,7 +26,7 @@ This project was under certain requirements that are describe bellow
 - Global variables are not allowed
 - 5 functions maximum per files are allowed
 
-# Features
+# 📦 Features
 
 Currently, the `_printf` function supports the following format specifiers:
 
@@ -40,7 +40,7 @@ Currently, the `_printf` function supports the following format specifiers:
 The behavior is intentionally limited, as this is an educational project.  
 Support for additional specifiers such as `%u`, `%x`, etc., may be implemented later.
 
-# Exemple d'utilisation
+# 🧪 Exemple d'utilisation
 
 ```c
 #include "main.h"
@@ -54,7 +54,7 @@ int main(void)
 }
 ```
 
-# Tests performed
+# ✅ Tests performe
 
 The following test cases were manually verified:
 ``` 
@@ -78,6 +78,6 @@ The output was compared with the standard `printf` to ensure correctness.
 Edge cases and additional specifiers (like `%u`, `%x`, etc.) will be tested in future updates.
    
 
-# Author
+# 👥 Author
 
 Georgia Boulnois and Kevin Herisson Holbies at Holberton, Actual Digital School
