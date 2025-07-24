@@ -40,7 +40,7 @@ Currently, the `_printf` function supports the following format specifiers:
 The behavior is intentionally limited, as this is an educational project.  
 Support for additional specifiers such as `%u`, `%x`, etc., may be implemented later.
 
-# 🧪 Exemple d'utilisation
+# 🧪 Exemples
 
 ```c
 #include "main.h"
@@ -54,7 +54,7 @@ int main(void)
 }
 ```
 
-# ✅ Tests performe
+# ✅ Tests performed
 
 The following test cases were manually verified:
 ``` 
@@ -78,6 +78,6 @@ The output was compared with the standard `printf` to ensure correctness.
 Edge cases and additional specifiers (like `%u`, `%x`, etc.) will be tested in future updates.
    
 
-# 👥 Author
+# 👥 Authors
 
 Georgia Boulnois and Kevin Herisson Holbies at Holberton, Actual Digital School
